@@ -4674,7 +4674,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "e727e9aa-848c-4871-b782-084d822ddc99")
@@ -4687,7 +4687,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9815c3a7-1921-43db-9f9e-6e14b93edfe0")
@@ -4847,7 +4847,7 @@
 			(uuid "e454788f-faf0-44e1-8255-88f93e85900a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "d5e4bbdc-e030-4049-a448-0e50c0d3161c")
 			(effects
@@ -5116,7 +5116,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "aa9a52e1-d937-4232-9015-fc50e652a2e9")
@@ -5129,7 +5129,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "63299a6f-c945-4261-9e44-02bc5a6f9061")
@@ -5289,7 +5289,7 @@
 			(uuid "9b556c3f-7e49-4f16-aa95-c6b620016e31")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "7d7e3743-d9b3-47c6-ab44-5555d51c4f7f")
 			(effects
@@ -5561,6 +5561,18 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "04d65a9e-6c2b-425d-b381-26146edeb143")
+	)
+	(gr_text "ImSeanConroy/LED-Matrix (v0.1)"
+		(at 97.8 64.45 0)
+		(layer "B.SilkS")
+		(uuid "01b05756-5cf7-4b39-a8de-12967152464a")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(via
 		(at 101.95 67.85)
