@@ -4,11 +4,11 @@ This project is a minimal, compact 12-pixel LED matrix (2 rows × 6 columns), ba
 
 ## Getting Started
 
-1. **Open the Project** - Open the .kicad_pro file in KiCad to view the project.
+1. **Open the Project** - Open the `.kicad_pro` file in KiCad to view the project.
 2. **Review the Design** - Inspect the schematic and PCB layout to ensure it meets your needs.
 3. **Customize or Export** - Make any modifications and export the Gerber files for fabrication.
 4. **Order the PCB** - Submit the Gerber files to your preferred PCB manufacturer.
-5. **Get components** - Purchase the components from the BOM and a compatible board.
+5. **Get the Components** - Purchase the components from the BOM and a compatible board.
 6. **Assemble the Hardware** - Solder the components and assemble the board.
 7. **Upload the Firmware** - Connect the board via USB and upload the firmware.
 
@@ -16,8 +16,10 @@ This project is a minimal, compact 12-pixel LED matrix (2 rows × 6 columns), ba
 
 The following are the required components to build the 2x6 LED Matrix:
 
-1. WS2812D 8mm LEDs - [AliExpress](https://aliexpress.bitluni.net/ws2812d)
-2. 2x03 Pin Headers - [AliExpress](https://aliexpress.bitluni.net/ws2812d)
+| Quantity | Component | Description | Source |
+| - | - | - | - |
+| 12 | WS2812D 8mm LEDs | Individually addressable RGB LEDs | [AliExpress](https://aliexpress.bitluni.net/ws2812d) |
+| 1 | 2×03 Pin Header | 2-row, 3-pin male header | [AliExpress](https://aliexpress.bitluni.net/ws2812d) |
 
 ## Contributing
 
