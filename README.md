@@ -2,6 +2,8 @@
 
 This project is a minimal, compact 12-pixel LED matrix (2 rows × 6 columns), based on WS2812D addressable LEDs and created using KiCad.
 
+![Project Image](.github/repo-img.png)
+
 ## Getting Started
 
 1. **Open the Project** - Open the `.kicad_pro` file in KiCad to view the project.
